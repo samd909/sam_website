@@ -60,7 +60,7 @@ export default function ContactSection() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 w-full max-w-xl">
             {[
                 { icon: Mail, label: "Email", text: "info@sdict.nl", href: "mailto:info@sdict.nl" },
-                { icon: Linkedin, label: "LinkedIn", text: "Connect met mij", href: "linkedin.com/in/sam-droste-b7a250305" },
+                { icon: Linkedin, label: "LinkedIn", text: "Connect met mij", href: "https://linkedin.com/in/sam-droste-b7a250305" },
                 { icon: Github, label: "GitHub", text: "Bekijk mijn projecten", href: "https://github.com/" },
             ].map((contact, idx) => (
                 <a
