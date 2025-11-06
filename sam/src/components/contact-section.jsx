@@ -77,7 +77,7 @@ export default function ContactSection() {
                 <h3 className="font-semibold text-base sm:text-lg text-foreground group-hover:text-primary transition-colors">
                     {contact.label}
                 </h3>
-                <p className="text-sm sm:text-base text-muted-foreground break-all leading-relaxed mt-2">
+                <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mt-2">
                     {contact.text}
                 </p>
                 </a>
