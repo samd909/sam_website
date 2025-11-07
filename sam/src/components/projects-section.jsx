@@ -10,7 +10,7 @@ export default function ProjectsSection() {
       type: "Fullstack Webapp",
       description:
         "Een volledige webapplicatie met login, afsprakenbeheer en admin omgeving. Gebouwd met Django en Tailwind CSS.",
-      tech: ["Django", "Tailwind CSS", "OAuth", "REST API"],
+      tech: ["Django", "Tailwind CSS", "OAuth", "Gunicorn"],
       icon: <Scissors size={28} />,
       link: "https://sbcutz.nl/",
     },
@@ -20,7 +20,7 @@ export default function ProjectsSection() {
       type: "Statische Website",
       description:
         "Een statische bedrijfswebsite met meerdere pagina's, gebouwd met React en Tailwind CSS.",
-      tech: ["React", "Tailwind CSS", "Static Pages"],
+      tech: ["React", "Tailwind CSS"],
       icon: <Target size={28} />,
       link: "https://collab4you.nl/",
     },
