@@ -7,7 +7,7 @@ export default function ServicesSection() {
     {
       icon: <Code2 size={36} />,
       title: "Website Development",
-      description: "Professionele, moderne websites op maat gebouwd. Responsive, snel en gericht op gebruiksvriendelijkheid en conversie.",
+      description: "Professionele en moderne websites, volledig op maat gebouwd. Geen gebruik van standaard webbuilders of WordPress themas — elke regel code wordt door ons geschreven en geoptimaliseerd voor jouw project",
     },
     {
       icon: <Globe size={36} />,
