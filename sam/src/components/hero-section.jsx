@@ -6,24 +6,13 @@ export default function HeroSection() {
   return (
     <>
       {/* Metadata voor SEO */}
+      <Meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://sdict.nl/" />
       <Title>Home - SDICT | Moderne Websites & Webapps</Title>
       <Meta
         name="description"
         content="SDICT levert op maat gemaakte, moderne websites en webapps. Van concept tot beheer, alles wat je nodig hebt voor een professionele online aanwezigheid."
       />
-
-      {/* Structured Data voor homepage */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "url": "https://sdict.nl/",
-        "name": "SDICT",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://sdict.nl/search?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
-      })}} />
 
       {/* Hero Section */}
       <section className="min-h-[50vh] sm:min-h-[60vh] flex flex-col justify-center items-center text-center gap-6 sm:gap-8 animate-slide-in px-4">
