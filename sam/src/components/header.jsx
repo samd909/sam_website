@@ -61,21 +61,24 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1">
-            {tabs.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => handleTabClick(tab.path)}
-                className={`px-4 py-2 text-sm font-medium transition-all duration-300 ${
-                  location.pathname === tab.path
-                    ? "text-purple-400"
-                    : "text-white/60 hover:text-white/90"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
+          <nav aria-label="Hoofdmenu">
+            <ul className="flex items-center gap-1">
+              {tabs.map((tab) => (
+                <li key={tab.id}>
+                  <a
+                    href={tab.path}
+                    className={`px-4 py-2 text-sm font-medium transition-all duration-300 ${
+                      location.pathname === tab.path
+                        ? "text-purple-400"
+                        : "text-white/60 hover:text-white/90"
+                    }`}
+                  >
+                    {tab.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
           {/* Right side: Social + Mobile Menu */}
           <div className="flex items-center gap-3 sm:gap-4">

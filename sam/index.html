@@ -31,16 +31,19 @@
 
 
     <!-- Structured Data (Google Rich Results) -->
-    <script type="application/ld+json">
+      <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "WebSite",
+        "url": "https://sdict.nl/",
         "name": "SDICT",
-        "url": "https://sdict.nl",
-        "logo": "https://sdict.nl/sdict.png",
-        "description": "SDICT ontwikkelt moderne en gebruiksvriendelijke websites en webapps op maat, van ontwerp tot livegang."
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://sdict.nl/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
-    </script>
+      </script>
   </head>
 
   <body>
