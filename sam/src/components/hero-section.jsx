@@ -20,7 +20,7 @@ export default function HeroSection() {
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-balance leading-tight">
-            Wij maken{" "}
+            Bij SDICT maken wij{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               moderne websites
             </span>{" "}
