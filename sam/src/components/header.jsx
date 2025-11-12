@@ -62,7 +62,7 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav aria-label="Hoofdmenu">
-            <ul className="flex items-center gap-1">
+            <ul className="hidden md:flex items-center gap-1">
               {tabs.map((tab) => (
                 <li key={tab.id}>
                   <a
