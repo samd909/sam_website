@@ -7,12 +7,12 @@ export default function ServicesSection() {
     {
       icon: <Code2 size={36} />,
       title: "Website Development",
-      description: "Professionele, moderne websites, volledig op maat, met elke regel code persoonlijk door ons geschreven — geen WordPress of webbuilders.",
+      description: "Professionele, moderne websites, volledig op maat, met elke regel code persoonlijk door mij geschreven — geen WordPress of webbuilders.",
     },
     {
       icon: <Globe size={36} />,
       title: "Hosting & Deployment",
-      description: "Wij selecteren betrouwbare hostingproviders en configureren alles zelf voor optimale prestaties, veiligheid en back-ups.",
+      description: "Ik selecteer betrouwbare hostingproviders en configureren alles zelf voor optimale prestaties, veiligheid en back-ups.",
     },
     {
       icon: <Wrench size={36} />,

@@ -43,7 +43,7 @@ export default function ProjectsSection() {
           </span>
         </h2>
         <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
-          Twee live projecten die we ontworpen en gebouwd hebben. Met hosting en voortdurend beheer.
+          Twee live projecten die ik ontworpen en gebouwd heb. Met hosting en voortdurend beheer.
         </p>
       </div>
 

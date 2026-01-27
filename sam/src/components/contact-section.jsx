@@ -12,7 +12,6 @@ export default function ContactSection() {
         />
         <section className="w-full flex flex-col justify-center items-center gap-8 sm:gap-10 animate-slide-in px-4 sm:px-6 md:px-8 sm:py-8 lg:py-8">
 
-        {/* Header tekst bovenaan */}
         <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
             Laten we{" "}
@@ -41,7 +40,7 @@ export default function ContactSection() {
                 <div className="flex items-center gap-3">
                     <Mail size={20} className="text-primary" />
                     <a href="mailto:info@sdict.nl" className="hover:underline">
-                    info@sdict.nl
+                    drostesam@gmail.com
                     </a>
                 </div>
                 {/* <div className="flex items-center gap-3">
@@ -56,10 +55,9 @@ export default function ContactSection() {
             </div>
             </div>
 
-            {/* Interactieve contactkaartjes */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 w-full max-w-xl">
             {[
-                { icon: Mail, label: "Email", text: "info@sdict.nl", href: "mailto:info@sdict.nl" },
+                { icon: Mail, label: "Email", text: "drostesam@gmail.com", href: "mailto:info@sdict.nl" },
                 { icon: Linkedin, label: "LinkedIn", text: "Connect met mij", href: "https://linkedin.com/in/sam-droste-b7a250305" },
                 { icon: Github, label: "GitHub", text: "Bekijk mijn projecten", href: "https://github.com/" },
             ].map((contact, idx) => (

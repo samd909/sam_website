@@ -48,7 +48,7 @@ export default function HeroSection() {
             to="/contact"
             className="px-6 sm:px-8 py-3 border-2 border-primary/50 text-primary rounded-lg font-semibold hover:bg-primary/10 hover:border-primary transition-all duration-300 hover:scale-105 active:scale-95 text-sm sm:text-base"
           >
-            Contacteer ons
+            Contacteer mij
           </Link>
         </div>
 
